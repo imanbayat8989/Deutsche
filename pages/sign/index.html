@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/syle.css">
+</head>
+<body>
+    <div class="container">
+        <header>Anmeldung</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Persönliche Daten</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Vollständiger Name</label>
+                            <input type="text" placeholder="Gib deinen Namen ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Geburtsdatum</label>
+                            <input type="date" placeholder="Geburtsdatum eingeben" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Geben sie ihre E-Mailadresse ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Handynummer</label>
+                            <input type="number" placeholder="Handynummer eingeben" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Geschlecht</label>
+                            <select required>
+                                <option disabled selected>Wähle Geschlecht</option>
+                                <option>Männlich</option>
+                                <option>weiblich</option>
+                                <option>Andere</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Beruf</label>
+                            <input type="text" placeholder="Geben Sie Ihren Beruf ein" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identitätsdetails</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>ID-Typ</label>
+                            <input type="text" placeholder="Geben Sie den ID-Typ ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID-Nummer</label>
+                            <input type="number" placeholder="ID-Nummer eingeben" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ausgestellte Behörde</label>
+                            <input type="text" placeholder="Erteilte Vollmacht eingeben" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ausgestellter Staat</label>
+                            <input type="text" placeholder="Geben Sie den ausgestellten Zustand ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ausstellungsdatum</label>
+                            <input type="date" placeholder="Geben Sie Ihr Ausstellungsdatum ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Verfallsdatum</label>
+                            <input type="date" placeholder="Ablaufdatum eingeben" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Nächste</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Adressen Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Adresstyp</label>
+                            <input type="text" placeholder="Dauerhaft oder vorübergehend" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Staatsangehörigkeit</label>
+                            <input type="text" placeholder="Nationalität eingeben" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Bundesland</label>
+                            <input type="text" placeholder="Geben Sie Ihr Bundesland ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Bezirk</label>
+                            <input type="text" placeholder="Geben Sie Ihren Bezirk ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Stationsnummer</label>
+                            <input type="number" placeholder="Stationsnummer eingeben" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Familien Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Der Name des Vaters</label>
+                            <input type="text" placeholder="Geben Sie den Namen des Vaters ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Name der Mutter</label>
+                            <input type="text" placeholder="Geben Sie den Namen der Mutter ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Großvater</label>
+                            <input type="text" placeholder="Geben Sie den Namen des Großvaters ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Name des Ehepartners</label>
+                            <input type="text" placeholder="Geben Sie den Namen des Ehepartners ein" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Schwiegervater</label>
+                            <input type="text" placeholder="Name des Schwiegervaters" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Schwiegermutter</label>
+                            <input type="text" placeholder="Name der Schwiegermutter" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Der Rücken</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Einreichen</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
